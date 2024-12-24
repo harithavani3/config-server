@@ -7,8 +7,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
- application:
-  name: employee-service
+ application: employee-service
   
  datasource:
   url: jdbc:h2:mem:testdb
